@@ -19,5 +19,12 @@ public class Class_01 {
 	public void close() {
 		System.out.println("Close the Browser");
 	}
+	
+
+	@Test(priority = 1, groups = {"Sanity"})
+	public void Gowthami() {
+
+		System.out.println("Gowthami added new method");
+	}
 
 }
