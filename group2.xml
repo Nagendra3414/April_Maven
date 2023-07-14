@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+	<test thread-count="5" name="Test">
+
+
+
+		<parameter name="username" value="standard_user" />
+		<parameter name="password" value="secret_sauce" />
+		<groups>
+			<run>
+
+				<include name="Regression" />
+				<exclude name="Sanity" />
+				<exclude name="Smoke" />
+			</run>
+
+		</groups>
+
+
+		<classes>
+			<class name="maven_01.DataProvider" />
+			<class name="maven_01.TestNG_3" />
+			<class name="maven_01.Parameter" />
+			<class name="maven_01.Testcase" />
+			<class name="maven_01.Class_01" />
+			<class name="maven_01.Testng_02" />
+			<class name="maven_01.AnnotationstenstNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

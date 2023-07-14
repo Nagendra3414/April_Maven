@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="username" value="standard_user"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <include name="Sanity"/>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="maven_01.Testcase">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="closeTheBrowser"/>
+          <include name="testcase3"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- maven_01.Testcase -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
