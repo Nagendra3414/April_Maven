@@ -1,0 +1,14 @@
+maven_01\TestNG_3.class
+pages\ProductsPage.class
+pages\LoginPage.class
+maven_01\AnnotationstenstNG.class
+maven_01\Testcase.class
+pages\YourCartPage.class
+maven_01\Parameter.class
+pages\YourInfoPage.class
+autoIT\UploadingTheFile.class
+maven_01\DataProvider.class
+maven_01\Class_01.class
+stepDefinition\Login.class
+maven_01\Testng_02.class
+runner\TestRunner.class
